@@ -17,59 +17,7 @@
                   </block>
                 </value>
                 <next>
-                  <block type="movement_right" id="7">
-                    <next>
-                      <block type="robot_delay" id="8" inline="true">
-                        <value name="DELAY">
-                          <block type="math_number" id="26">
-                            <field name="NUM">2000</field>
-                          </block>
-                        </value>
-                        <next>
-                          <block type="movement_right" id="10">
-                            <next>
-                              <block type="robot_delay" id="11" inline="true">
-                                <value name="DELAY">
-                                  <block type="math_number" id="12">
-                                    <field name="NUM">2000</field>
-                                  </block>
-                                </value>
-                                <next>
-                                  <block type="movement_left" id="13">
-                                    <next>
-                                      <block type="robot_delay" id="14" inline="true">
-                                        <value name="DELAY">
-                                          <block type="math_number" id="15">
-                                            <field name="NUM">2000</field>
-                                          </block>
-                                        </value>
-                                        <next>
-                                          <block type="movement_forward" id="16">
-                                            <next>
-                                              <block type="robot_delay" id="17" inline="true">
-                                                <value name="DELAY">
-                                                  <block type="math_number" id="18">
-                                                    <field name="NUM">2000</field>
-                                                  </block>
-                                                </value>
-                                                <next>
-                                                  <block type="movement_stop" id="19"></block>
-                                                </next>
-                                              </block>
-                                            </next>
-                                          </block>
-                                        </next>
-                                      </block>
-                                    </next>
-                                  </block>
-                                </next>
-                              </block>
-                            </next>
-                          </block>
-                        </next>
-                      </block>
-                    </next>
-                  </block>
+                  <block type="movement_stop" id="36"></block>
                 </next>
               </block>
             </next>
